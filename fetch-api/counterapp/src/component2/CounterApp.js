@@ -9,7 +9,7 @@ class CounterApp extends React.Component {
     }
   }
 
-  // 元件 "已經" 呈現在網頁上
+  // 元件 "已經 Did" 呈現在網頁上
   async componentDidMount() {
     try {
       await this.setState({ loading: true })
@@ -34,7 +34,7 @@ class CounterApp extends React.Component {
     }
   }
 
-  // 元件 "即將" 卸載出網頁
+  // 元件 "即將 Will" 卸載出網頁
   componentWillUnmount() {}
 
   handleClick = value => async () => {
